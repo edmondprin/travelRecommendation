@@ -77,6 +77,15 @@ img:hover {
     color: gray;
 }
 
+.right {
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+  font-size: 1.5rem;
+  background-color: rgba(234, 228, 228, 0.5);
+  color: gray;
+}
+
 #book {
     position: absolute;
     bottom: 3%;
@@ -94,4 +103,9 @@ img:hover {
     transform: translate(-50%, -50%);
     font-size: 75px;
     width: 100%;
+}
+
+#name, #email, #message {
+  background-color: rgb(235, 225, 225);
+  width: 250px;
 }

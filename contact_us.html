@@ -15,7 +15,7 @@
         <h2>Prin Travel Agency</h2>
         <ul>
             <div class="topnav-centered">
-                <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+                <li><a href="./index.html" id="home">Home</a></li>
                 <li><a href="./about_us.html" id="about">About Us</a></li>
                 <li><a href="./contact_us.html" id="contact">Contact Us</a></li>
             </div>
@@ -23,12 +23,18 @@
     </nav>
     <div class="container">
         <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?cs=srgb&dl=pexels-asadphoto-457882.jpg&fm=jpg" alt="pic of beach">
-        <h1 class="centered">ABOUT US</h1>
+        <h1 class="centered">CONTACT US</h1>
     <div class="bottom-left">
-        <h2>Our team</h2>
-        <p>Ed, CEO</p>
-        <p>Dana, CFO</p>
-        <p>Matt, PR</p>
+        <h2>Please let us know who you are and how we can help!</h2>
+        <form id="yourInfo">
+          <label for="name">Name:</label>
+          <input type="text" id="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
     </div>>
     <script src="./travel_recommendation.js"></script>
 </body>
