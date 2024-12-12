@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* .topnav {
+    position: relative;
+} */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.topnav-centered { float: none;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button {
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 25px;
+}
+
+#placeSearch {
+    width: 200px;
+}
+
+img {
+    max-width: 108%;
+    height: auto;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(107, 97, 97);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    font-size: 1.5rem;
+    background-color: rgba(234, 228, 228, 0.5);
+    color: gray;
+}
+
+#book {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+    width: 450px;
+    height: 75px;
+    font-size: 3rem;
+    color: gray
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    width: 100%;
+}
